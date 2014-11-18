@@ -1,0 +1,33 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="RESTfullApp:war exploded">
+    <output-path>$PROJECT_DIR$/target/TestWS-1.0-SNAPSHOT</output-path>
+    <root id="root">
+      <element id="javaee-facet-resources" facet="RESTfullApp/web/Web" />
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="RESTfullApp" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="library" level="project" name="Maven: org.jboss.resteasy:resteasy-jaxrs:3.0.4.Final" />
+          <element id="library" level="project" name="Maven: org.jboss.resteasy:jaxrs-api:3.0.4.Final" />
+          <element id="library" level="project" name="Maven: org.scannotation:scannotation:1.0.3" />
+          <element id="library" level="project" name="Maven: javassist:javassist:3.12.1.GA" />
+          <element id="library" level="project" name="Maven: org.jboss.spec.javax.annotation:jboss-annotations-api_1.1_spec:1.0.1.Final" />
+          <element id="library" level="project" name="Maven: javax.activation:activation:1.1" />
+          <element id="library" level="project" name="Maven: org.apache.httpcomponents:httpclient:4.2.1" />
+          <element id="library" level="project" name="Maven: org.apache.httpcomponents:httpcore:4.2.1" />
+          <element id="library" level="project" name="Maven: commons-logging:commons-logging:1.1.1" />
+          <element id="library" level="project" name="Maven: commons-codec:commons-codec:1.6" />
+          <element id="library" level="project" name="Maven: commons-io:commons-io:2.1" />
+          <element id="library" level="project" name="Maven: net.jcip:jcip-annotations:1.0" />
+          <element id="library" level="project" name="Maven: org.jboss.resteasy:resteasy-client:3.0.4.Final" />
+          <element id="library" level="project" name="Maven: org.jboss.resteasy:resteasy-jackson-provider:3.0.4.Final" />
+          <element id="library" level="project" name="Maven: org.codehaus.jackson:jackson-core-asl:1.9.12" />
+          <element id="library" level="project" name="Maven: org.codehaus.jackson:jackson-mapper-asl:1.9.12" />
+          <element id="library" level="project" name="Maven: org.codehaus.jackson:jackson-jaxrs:1.9.12" />
+          <element id="library" level="project" name="Maven: org.codehaus.jackson:jackson-xc:1.9.12" />
+        </element>
+      </element>
+    </root>
+  </artifact>
+</component>
