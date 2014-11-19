@@ -1,8 +1,22 @@
 package entity;
 
-public class Product {
+import javax.persistence.*;
+import java.io.Serializable;
+
+@Entity
+@Table(name = "products")
+public class Product implements Serializable {
+    @Id
+    @GeneratedValue(strategy = GenerationType.AUTO)
+    @Column(name = "id")
+    private int id;
+    @Column(name = "name")
     String name;
+    @Column(name = "qty")
     int qty;
+
+    public Product() {
+    }
 
     public String getName() {
         return name;
@@ -18,6 +32,10 @@ public class Product {
 
     public void setQty(int qty) {
         this.qty = qty;
+    }
+
+    public int getId() {
+        return id;
     }
 
     @Override
